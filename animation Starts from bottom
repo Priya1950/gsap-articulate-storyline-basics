@@ -1,0 +1,17 @@
+```javascript
+var box = document.querySelector("[data-acc-text='box']");
+
+gsap.from(box, {
+  duration: 1.5,
+  y: 200,
+  opacity: 0,
+  ease: "power3.out"
+});
+
+```Explanation
+
+```y: 200 → Starts from bottom
+
+```opacity: 0 → Fades in
+
+```ease: power3.out → Smooth motion
