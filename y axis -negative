@@ -1,0 +1,8 @@
+var box = document.querySelector("[data-acc-text='box']");
+
+gsap.from(box, {
+  duration: 5,
+  y: -100,
+  opacity: 0
+});
+
